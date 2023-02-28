@@ -1,0 +1,23 @@
+body {
+   background: aqua
+
+
+}
+
+.button button {
+   font-size: 16px;
+   padding: 16px 32px;
+   display: inline-block;
+   border-radius: 12px;
+   background: magenta; 
+   
+
+
+}
+
+.submit {
+	padding: 16px 32px;
+	font-size: 16px;
+	background:#ED2FF0;
+	
+	}

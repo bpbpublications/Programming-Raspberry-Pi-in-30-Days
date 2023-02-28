@@ -1,0 +1,12 @@
+body {
+   background: #41f1de;
+
+}
+
+.switch button {
+    font-size: 16px;
+    background: #41f15c;
+    padding: 16px 32px;
+    display: inline-block;
+
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: "Times New Roman";
+    font-size: 1.5em;
+    text-align: center;
+    background: #33ffe6;
+}
+
+h1 {
+   font-size: 1.5em; 
+   font-family: "Times New Roman";
+
+}
+
+label {
+   margin: 25px 5px;
+}
+
+#removemodel {
+  background: #f141de;
+  color: #302B29;
+  padding: 32px;
+
+}
+
+.remove {
+    background: #41a1f1;
+    padding: 16px 32px;
+    font-weight: bold;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid white;
+    margin: 16px;
+    cursor: pointer;
+
+
+}
+
+.add {
+    background: #41a1f1;
+    padding: 16px 32px;
+    font-weight: bold;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid white;
+    margin: 16px;
+    cursor: pointer;
+
+
+}
+
+select {
+   font-family: "Times New Roman";
+   font-size: 0.85em;
+   text-align: center;
+   border: 2px solid gray;
+
+}

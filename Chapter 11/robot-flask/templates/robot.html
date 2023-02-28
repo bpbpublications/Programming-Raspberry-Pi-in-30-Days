@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="/static/robot.css">
+</head>
+<body>
+<h1> Robot Control </h1>
+<div class="button">
+<button id="forward">^</button>
+<button id="backward">v</button>
+<button id="left"><</button>
+<button id="right">></button>
+<div>
+<h2>PWM Control</h2>
+<form method="POST" action="motorpwm">
+<input type="range" min="-0" max="10" value="0" name="speed" id="pwmRange"/>
+<p>Value:<span id="pwm"></span></p>
+<input type="range" min="0" max="10" value="0" name="speed2" id="pwmRange2" />
+<p>Value:<span id="pwm2"></span></p>
+<input type="submit"class="submit" value="Change Speed" />
+</form>
+<script src="/static/robot.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" href="/static/raspberry.css">
+<head>
+<body>
+<h1> Raspberry Pi Wish List </h1>
+<div id=removemodel>
+<form action="/removemodel" method="POST">
+{% for item in wish_list %}
+<input type="checkbox" name="check" id="{{item}}" value="{{item}}">
+<label for="{{items}}" name="{{item}}">{{ item }}</label><br>
+{% endfor %}
+<input type="submit" value="REMOVE BOARD" class="remove">
+</form>
+</div>
+<div id="addmodel">
+<form action="/addmodel" method="POST">
+<select name="select_items">
+{% for item in all_items %}
+<option value="{{ item }}"> {{ item }} </option>
+{% endfor %}
+<input type ="submit" value="ADD MODEL" class="add">
+</form>
+</div>
+</body>
+</html>
